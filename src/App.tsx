@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div>
-      <MapComponent></MapComponent>
+      <MapComponent />
       {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>My alert</Alert>
       )}
